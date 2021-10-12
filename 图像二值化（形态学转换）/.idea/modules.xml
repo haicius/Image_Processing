@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/python/project/B_jiazhigang/.idea/B_jiazhigang.iml" filepath="E:/python/project/B_jiazhigang/.idea/B_jiazhigang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/图像二值化.iml" filepath="$PROJECT_DIR$/.idea/图像二值化.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/图像处理.iml" filepath="$PROJECT_DIR$/../.idea/图像处理.iml" />
+    </modules>
+  </component>
+</project>
