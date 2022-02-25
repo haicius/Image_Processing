@@ -8,7 +8,7 @@ import cv2 as cv
 from matplotlib import pyplot as plt
 
 
-img = cv.imread('F:/Python/image_proceesing/picture/5.jpg')
+img = cv.imread('F:/Python/image_processing/picture/0001.jpg')
 img = cv.resize(img, (512, 700))
 
 mask = np.zeros(img.shape[:2], np.uint8)    # 创建一个和原始图像相同大小掩码

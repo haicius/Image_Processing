@@ -82,11 +82,12 @@ def custom_blur(image):              # 自定义模糊，抑制声效果，参�
     cv.imshow('custom_blur', dst2)
 
 
-src = cv.imread('/picture/3.png')
-cv.namedWindow('input image', cv.WINDOW_AUTOSIZE)
-# bi_demo(src)
+src = cv.imread('crane.jpg', 0)
+src = cv.resize(src, dsize=None, fx=0.25, fy=0.25)
+cv.namedWindow('input image', cv.WINDOW_NORMAL)
 cv.imshow('input image', src)
-gauss_noise_demo(src)
+dst2 = cv.medianBlur(src, 3)
+cv.imshow('dst', dst2)
 cv.waitKey(0)
 cv.destroyAllWindows()  # 释放所有内存
-print('HI,python')
+

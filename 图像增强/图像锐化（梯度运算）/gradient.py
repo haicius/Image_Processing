@@ -38,7 +38,7 @@ def sobel_demo(image):
     cv.imshow('grad_xy', gradient_xy)
 
 
-src = cv.imread("F:/Python/image_proceesing/picture/3.png")
+src = cv.imread("3.png")
 cv.namedWindow('input image', cv.WINDOW_AUTOSIZE)
 cv.imshow("input", src)
 sobel_demo(src)
